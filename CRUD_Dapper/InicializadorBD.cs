@@ -16,11 +16,7 @@ namespace CRUD_Dapper
                 Preco REAL NOT NULL
             );";
 
-
-
             connection.Execute(criarTabela); //Método que Executa qualquer comando SQL (Dapper)
         }
     }
 }
-
-
